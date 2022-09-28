@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+#wrapper {
+    border: 1px solid black;
+}
+
+#main-image {
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+#brand-choice {
+    border: 1px solid black;
+}
