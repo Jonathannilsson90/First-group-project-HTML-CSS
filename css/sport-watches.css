@@ -15,3 +15,9 @@
 #brand-choice {
     border: 1px solid black;
 }
+
+.card {
+    width: 30%;
+    border: 1px solid black;
+    text-align: center;
+}
