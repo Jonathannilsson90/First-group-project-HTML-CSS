@@ -1,5 +1,5 @@
 body {
-  background-color: ;
+  background-color: white;
 }
 
 
@@ -20,7 +20,7 @@ main {
 /*******FOOTER******/
 
 a{
-  text-decoration: 5px underline dotted antiquewhite;
+  text-decoration: 3px underline dotted antiquewhite;
   color: #262626;
 }
 
@@ -50,4 +50,7 @@ a{
 
 ul{
   list-style: none;
+}
+.fa-brands{
+  color: antiquewhite;
 }
