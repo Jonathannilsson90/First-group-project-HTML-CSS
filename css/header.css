@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
 #logo,
 header {    
     border: 1px solid black;
@@ -9,21 +14,32 @@ header {
 
 header {
     display: flex;
+    flex: row wrap;
     padding: 20px;
 }
 
 #logo {
-    align-items: center;
+  height:  40px;
+  margin-right: 40px;
 }
 
-a {
-    text-decoration: none;
+#search-bar {
+    height: 30px;
+    width: 200px;
+   margin-top: 40px;
 }
 
 .icon {
     display: block;
+    margin-left: auto;
 }
 
 .icon-text {
     display: block;
 }
+
+.header-nav {
+    display: inline;
+}
+
+
