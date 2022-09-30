@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+
+#logo,
+header {    
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    padding: 20px;
+}
+
+#logo {
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    display: block;
+}
+
+.icon-text {
+    display: block;
+}
