@@ -1,5 +1,42 @@
-header{
-    min-height: 150px;
-    width: 85%;
+#container{
+    display: grid;
+    margin: 5px;
+    gap: 5px;
+}
+
+#Header{
     border: 1px solid black;
+    min-height: 100px;
+    width: auto;
+    justify-items: center; /*horizontellt*/
+    align-content: center; /*vertickalt*/
+   
+    
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+#pic-container{
+    border: 1px solid black;
+    min-height: 800px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    
+}
+#footer{
+    border: 1px solid black;
+    min-height: 400px;
+    width: auto;
+
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    text-align: center;
+
+}
+footer1{
+    background-color: rgb(214, 213, 213);
+}
+footer2{
+    background-color: rgb(46, 45, 45);
 }
