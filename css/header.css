@@ -2,15 +2,21 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 .header-wrapper {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 170px repeat(4, 1fr);
+    grid-template-rows: 1fr 20px;
+    
+}
+
+.header-wrapper li {
+    list-style: none;
+}
+
+.header-wrapper li a {
+   text-decoration: none;
 }
 
 #logo a,
@@ -19,45 +25,72 @@ header {
 }
 
 header {
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
+   
 }
 
 #logo {
     display:flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
+   
 }
 
 #logo a {
     padding: 8px;
     border: 2px solid black;
+    text-decoration: none;
 }
 
 .searchbar-wrapper {
+    grid-column: 2/3;
     display: flex;
     align-items: center;
-    flex: 1 1 280px;
+    
     
 }
 #search-bar {    
     border: 2px solid black; 
-    height: 40px;
-    width: 280px;
+    height: 50px;
     font-size: 18px;
+    flex: 1 1 350px;
 }
 
-.icon {
+.icon-wrapper {
+    grid-column: 5/6;
     display: flex;
-    flex-flow: ;
+    align-items: center;
+    margin-left: auto;  
     
+}
+.icon-wrapper a {
+    text-decoration: none;
 }
 
 .icon-text {
-    display: block;
+  font-size: 25px;
+  padding-right: 10px;
 }
 
-.header-nav {
-    display: inline;
+.nav-wrapper {
+    grid-row: 2/3;
+    grid-column: 1/4;
+}
+ .main-nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    border-bottom: none;
+ }
+ 
+.main-nav ul li {
+   display: inline-block;
 }
 
+.main-nav ul li a {
+    font-size: 25px;
+ }
 
