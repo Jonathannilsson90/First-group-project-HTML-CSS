@@ -7,14 +7,18 @@ body {
     padding: 0;
 }
 
+.header-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
 #logo,
 header {    
     border: 1px solid black;
 }
 
 header {
-    display: flex;
-    flex: row wrap;
     padding: 20px;
 }
 
@@ -30,8 +34,8 @@ header {
 }
 
 .icon {
-    display: block;
-    margin-left: auto;
+    display: inline-block;
+    
 }
 
 .icon-text {
@@ -39,7 +43,7 @@ header {
 }
 
 .header-nav {
-    display: inline;
+    display: inline-block;
 }
 
 
