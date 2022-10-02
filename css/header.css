@@ -1,14 +1,26 @@
+:root {
+    --text-color: antiquewhite;
+    --background-color: #d2bda1;
+    --my-font:helvetica, Bebas neue, aril;
+}
+
 * {
     box-sizing: border-box;
 }
 
 
+header {
+    background-color: var(--background-color);
+}
 
+a {
+    font-family: var(--my-font);
+    color: var(--text-color);
+}
 .header-wrapper {
     display: grid;
     grid-template-columns: 170px repeat(4, 1fr);
-    grid-template-rows: 1fr 20px;
-    
+    grid-template-rows: 1fr 20px;    
 }
 
 .header-wrapper li {
