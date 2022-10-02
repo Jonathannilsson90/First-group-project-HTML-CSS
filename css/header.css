@@ -9,11 +9,11 @@ body {
 
 .header-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
 
-#logo,
+#logo a,
 header {    
     border: 1px solid black;
 }
@@ -23,18 +23,32 @@ header {
 }
 
 #logo {
-  height:  40px;
-  margin-right: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#search-bar {
-    height: 30px;
-    width: 200px;
-   margin-top: 40px;
+#logo a {
+    padding: 8px;
+    border: 2px solid black;
+}
+
+.searchbar-wrapper {
+    display: flex;
+    align-items: center;
+    flex: 1 1 280px;
+    
+}
+#search-bar {    
+    border: 2px solid black; 
+    height: 40px;
+    width: 280px;
+    font-size: 18px;
 }
 
 .icon {
-    display: inline-block;
+    display: flex;
+    flex-flow: ;
     
 }
 
@@ -43,7 +57,7 @@ header {
 }
 
 .header-nav {
-    display: inline-block;
+    display: inline;
 }
 
 
