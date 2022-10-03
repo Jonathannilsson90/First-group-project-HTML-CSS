@@ -116,10 +116,37 @@ header {
  .main-nav ul li a:hover {
     background-color: lightgrey;
  }
+h3{
+  text-align: center;
+}
+  h3:before{ 
+    content:"";
+    display: block;
+    width: 40%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    left:0;
+    top: 26%;
+  
+  }
+  h3:after{ 
+    content:"";
+    display: block;
+    width: 40%;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    right:0;
+    top: 26%;
+ 
+  }
 
-  
-  
-  main,
+
+
+
+
+
   footer {
     display: grid;
     margin: 0 auto;
