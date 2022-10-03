@@ -23,8 +23,8 @@ main {
 display:flex;
 align-items: center;
 justify-content: center;
-
 }
+
 
 .banner-container {
   display: grid;
