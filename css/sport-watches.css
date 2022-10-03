@@ -20,8 +20,10 @@ body {
 #main-image {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
-    min-height: 200px;
+    min-height: 300px;
     border: var(--border);
     background-image: url('../images/sportwatch/nedladdning.jpg');
     background-color: lightgray;
@@ -30,16 +32,6 @@ body {
     background-size: cover;
 }
 
-#email,
-input  {
-     width: 150px;
-}
-
-#email,
-input,
-.main-title {
-    align-self: center;
-}
 
 #brand-choice {
     border: var(--border);
