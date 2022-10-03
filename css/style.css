@@ -1,0 +1,56 @@
+body {
+  background-color: white;
+}
+
+
+#header-container,
+main,
+footer {
+  display: grid;
+  margin: 0 auto;
+  border: 1px solid rgb(216, 212, 212);
+  min-height: 100px;
+}
+
+main {
+  min-height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+/*******FOOTER******/
+
+a{
+  text-decoration: 3px underline dotted antiquewhite;
+  color: #262626;
+}
+
+.footer {
+  min-height: 250px;
+  background-color: #d2bda1;
+  font-size: 12px;
+  font-family: helvetica, Bebas neue, arial;
+}
+
+.inner-footer{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  column-gap: 5%;
+  
+}
+
+.inner-footer li{
+  color: antiquewhite;
+  margin: 5px;
+}
+
+ul{
+  list-style: none;
+}
+.fa-brands{
+  color: antiquewhite;
+}
