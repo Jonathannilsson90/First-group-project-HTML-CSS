@@ -1,14 +1,16 @@
-* {
-    box-sizing: border-box;
-}
-
 :root {
     --text-color: antiquewhite;
     --background-color: #d2bda1;
     --my-font:helvetica, Bebas neue, aril;
-    --border: 3px solid #d2bda1;
+    --border: 3px solid rgb(216, 212, 212);
 }
 
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: var(--my-font);
+}
 #wrapper {
     border: var(--border);
 }
@@ -51,7 +53,7 @@ body {
     flex:  1 1 280px;
     border: var(--border);
     border-radius: 5px;
-    box-shadow: 5px 10px #999;
+    box-shadow: 5px 10px #d2bda1;
     text-align: center;
     flex-grow: 1;
     

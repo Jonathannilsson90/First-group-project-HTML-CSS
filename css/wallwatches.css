@@ -20,21 +20,23 @@ body {
   }
 
 .wall-photos {
-   border: 3px solid goldenrod;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 100px;
-    align-items: center;
-    justify-items: center;
-}
-.wall-photos img {
-    transition: transform 0.25s ease;
-}
-.wall-photos img:hover {
-    -webkit-transform: scale(1.5);
-    transform:scale(1.5);
+    align-self: center;
 }
 
+.wall-photos a {
+  background-color: rgb(88, 9, 9);
+  color: white;
+  font-size: large;
+  font-weight: bold;
+}
+
+.wall-photos [class*=text] {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
   
   /*******FOOTER******/
   
