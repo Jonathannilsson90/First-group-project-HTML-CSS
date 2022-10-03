@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: antiquewhite;
+    --background-color: #d2bda1;
+    --my-font:helvetica, Bebas neue, aril;
+    --border: 3px solid #d2bda1;
+}
+
+#wrapper {
+    border: var(--border);
+}
+
+body {
+    font-family: var(--my-font);
+}
+
+#main-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 300px;
+    border: var(--border);
+    background-image: url('../images/sportwatch/nedladdning.jpg');
+    background-color: lightgray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#brand-choice {
+    border: var(--border);
+    background-color: var(--background-color)
+}
+
+#main-content {
+    display: flex;
+    flex-flow: row wrap;
+   
+    gap: 20px 40px;
+    padding: 20px;
+    min-height: 300px;
+}
+.card {
+    width: 20%;
+    flex:  1 1 280px;
+    border: var(--border);
+    border-radius: 5px;
+    box-shadow: 5px 10px #999;
+    text-align: center;
+    flex-grow: 1;
+    
+}
+
+.card-image {
+    height: 150px;
+}
