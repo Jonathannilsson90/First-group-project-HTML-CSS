@@ -1,5 +1,6 @@
 body {
-  background-color: white;
+  background: linear-gradient(lightgrey, rgba(120, 79, 38, 0.521));
+ 
 }
 
 
@@ -151,6 +152,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: double whitesmoke;
 }
 
 
@@ -172,28 +174,36 @@ main {
 /***********************image grid************************/
 
 .img-grid{
-  border: 15px inset rgb(189, 137, 91) ;
+  border: 10px double rgba(184, 179, 173, 0.723);
   margin: 150px;
   padding: 50px;
+  background: whitesmoke;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
+.bild-1, .bild-2, .bild-3, .bild-4, .bild-5, .bild-6 {
+  border: 4px double #f8f9f9;
+  margin: 5px;
+  background:rgba(184, 179, 173, 0.385);
+
+}
 .kl1, .kl2, .kl3, .kl3, .kl4, .kl5, .kl6{
   max-width: 250px;
 }
 
 .btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
-  border: 2px solid rgb(173, 117, 63);
+  border: 2px solid rgba(184, 179, 173, 0.723);
+  background: rgba(184, 179, 173, 0.723);
   text-align: justify;
   display: block;
-  width: 40%;
-  height: 10%;
+  width: 20%;
+  height: 13%;
 }
 
  .btn-1 , .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
-  color: grey;
+  color: whitesmoke;
   text-decoration: none;
 }
 
