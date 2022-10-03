@@ -67,7 +67,12 @@ main {
   max-width: 250px;
 }
 
-
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
+  border: 2px solid black;
+  text-align: justify;
+  display: block;
+  width: 90%;
+}
 
 
 
@@ -76,8 +81,8 @@ main {
 
                                /*******FOOTER******/
 
-a {
-  text-decoration: 3px underline dotted antiquewhite;
+.footer a  {
+  text-decoration: underline;
   color: #262626;
 }
 
