@@ -116,12 +116,15 @@ header {
  .main-nav ul li a:hover {
     background-color: lightgrey;
  }
+
+ /*picture grid*/
+
 .MK,
 .C{
   text-align: center;
 }
 
-  .MK:before{ 
+  .C:before{ 
     content:"";
     display: block;
     width: 40%;
@@ -129,12 +132,12 @@ header {
     background-color: black;
     position: absolute;
     left:0;
-    top: 27%;
+    margin-top: 10px;
+    
 
   }
 
-
-  .MK:after{ 
+  .C:after{ 
     content:"";
     display: block;
     width: 40%;
@@ -142,8 +145,25 @@ header {
     background-color: black;
     position: absolute;
     right:0;
-    top: 27%;
+    top: 188px;
+    
+    
+
+  }
+   
+    
  
+  
+  section{
+    min-height:300px;
+    min-width: 300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+ 
+  .resize-img{
+    height: 300px;
+    width: 300px;
   }
 
 
