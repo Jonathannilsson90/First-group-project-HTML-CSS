@@ -3,7 +3,7 @@ body {
 }
 
 
-#header-container,
+
 main,
 footer {
   display: grid;
@@ -12,11 +12,41 @@ footer {
   min-height: 100px;
 }
 
+
+/*******MAIN******/
+
 main {
   min-height: 500px;
-  justify-content: center;
-  align-items: center;
 }
+
+.img-container{
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.banner-container {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 30px;
+  font-family: helvetica, Bebas neue, arial;
+  font-size: 20px;
+  background-color: rgb(156, 141, 141);
+  color: white;
+  font-style: italic;
+}
+
+[class*= "banner"] {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.welcome-text {
+font-family:  arial,helvetica;
+margin: 10px;
+}
+
 /*******FOOTER******/
 
 a{
