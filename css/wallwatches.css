@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+  }
+  
+  
+  
+  main,
+  footer {
+    display: grid;
+    margin: 0 auto;
+    border: 1px solid rgb(216, 212, 212);
+    min-height: 100px;
+  }
+  
+  
+  /*******MAIN******/
+  
+  main {
+    min-height: 500px;
+  }
+
+.wall-photos {
+   border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 100px;
+    align-self: center;
+}
+
+
+  
+  /*******FOOTER******/
+  
+  a{
+    text-decoration: 3px underline dotted antiquewhite;
+    color: #262626;
+  }
+  
+  .footer {
+    min-height: 250px;
+    background-color: #d2bda1;
+    font-size: 12px;
+    font-family: helvetica, Bebas neue, arial;
+  }
+  
+  .inner-footer{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+  
+  
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 5%;
+    
+  }
+  
+  .inner-footer li{
+    color: antiquewhite;
+    margin: 5px;
+  }
+  
+  ul{
+    list-style: none;
+  }
+  .fa-brands{
+    color: antiquewhite;
+  }
