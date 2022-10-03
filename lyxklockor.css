@@ -116,10 +116,12 @@ header {
  .main-nav ul li a:hover {
     background-color: lightgrey;
  }
-h3{
+.MK,
+.C{
   text-align: center;
 }
-  h3:before{ 
+
+  .MK:before{ 
     content:"";
     display: block;
     width: 40%;
@@ -127,10 +129,12 @@ h3{
     background-color: black;
     position: absolute;
     left:0;
-    top: 26%;
-  
+    top: 27%;
+
   }
-  h3:after{ 
+
+
+  .MK:after{ 
     content:"";
     display: block;
     width: 40%;
@@ -138,7 +142,7 @@ h3{
     background-color: black;
     position: absolute;
     right:0;
-    top: 26%;
+    top: 27%;
  
   }
 
