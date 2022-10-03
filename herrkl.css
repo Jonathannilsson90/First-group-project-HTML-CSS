@@ -22,7 +22,7 @@ footer {
   box-sizing: border-box;
 }
 
-
+/******************header******************/
 header {
   background-color: var(--background-color);
 }
@@ -140,7 +140,7 @@ main {
 
 
 
-                         /*showcase*/
+/*******************************showcase********************/
 
 .showcase{
   margin: 15px;
@@ -169,11 +169,12 @@ main {
   font-size: 15px;
 }
 
-/*image grid*/
+/***********************image grid************************/
 
 .img-grid{
-  border: 5px solid rgb(189, 137, 91) ;
+  border: 15px inset rgb(189, 137, 91) ;
   margin: 150px;
+  padding: 50px;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -184,18 +185,22 @@ main {
 }
 
 .btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
-  border: 2px solid black;
+  border: 2px solid rgb(173, 117, 63);
   text-align: justify;
   display: block;
-  width: 90%;
+  width: 40%;
+  height: 10%;
+}
+
+ .btn-1 , .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
+  color: grey;
+  text-decoration: none;
 }
 
 
 
 
-
-
-                               /*******FOOTER******/
+  /**************************FOOTER***********************/
 
 .footer a  {
   text-decoration: underline;
