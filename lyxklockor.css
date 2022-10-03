@@ -123,37 +123,49 @@ header {
 .C{
   text-align: center;
 }
-
-  .C:before{ 
-    content:"";
-    display: block;
-    width: 40%;
-    height: 2px;
-    background-color: black;
-    position: absolute;
-    left:0;
-    margin-top: 10px;
-    
-
-  }
-
-  .C:after{ 
-    content:"";
-    display: block;
-    width: 40%;
-    height: 2px;
-    background-color: black;
-    position: absolute;
-    right:0;
-    top: 188px;
-    
-    
-
-  }
-   
-    
+.C::before{
+  content: "";
+  display: block;
+  width: 45%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
  
-  
+}
+.MK::before{
+  content: "";
+  display: block;
+  width: 42%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  left: 0;
+  margin-top: 10px;
+ 
+}
+.C::after{
+  content: "";
+  display: block;
+  width: 45%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  margin-top: -10px;
+}
+.MK::after{
+  content: "";
+  display: block;
+  width: 42%;
+  height: 2px;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  margin-top: -10px;
+}
+ 
   section{
     min-height:300px;
     min-width: 300px;
@@ -161,10 +173,12 @@ header {
     grid-template-columns: repeat(3,1fr);
   }
  
-  .resize-img{
+  .resize-img,
+  .resize-img2{
     height: 300px;
     width: 300px;
   }
+  .box3
 
 
 
