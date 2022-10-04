@@ -75,12 +75,22 @@ a{
 
 .inner-footer li{
   color: antiquewhite;
-  margin: 5px;
+  margin: 10px;
 }
 
 ul{
   list-style: none;
 }
+
+ul a{
+  color: #262626c9;
+  font-weight: bold;
+
+}
 .fa-brands{
   color: antiquewhite;
+}
+.copy{
+  color: antiquewhite ;
+  font-style: oblique;
 }
