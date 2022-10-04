@@ -14,20 +14,38 @@ body {
   
   
   /*******MAIN******/
-  
+  :root{
+    --background-color: rgb(88, 9, 9);
+    --grid-fonts: Arial, Helvetica, sans-serif;
+    --a-text-color: white;
+    --font-size-text: 25px;
+    --font-size-a-tag: large;
+    --font-styling: bold;
+  }
+
+
   main {
     min-height: 500px;
   }
 
 .wall-photos {
-   border: 1px solid black;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 100px;
     align-self: center;
 }
 
+.wall-photos a {
+  background-color: var(--background-color);
+  color: var(--a-text-color);
+  font-size: var(--font-size-a-tag);
+  font-weight: var(--font-styling);
+}
 
+.wall-photos [class*=text] {
+  font-size: var(--font-size-text);
+  font-family: var(--grid-fonts);
+}
   
   /*******FOOTER******/
   
