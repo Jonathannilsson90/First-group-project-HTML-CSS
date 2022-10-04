@@ -49,10 +49,7 @@ margin: 10px;
 
 /*******FOOTER******/
 
-a{
-  text-decoration: 3px underline dotted antiquewhite;
-  color: #262626;
-}
+
 
 .footer {
   min-height: 250px;
@@ -82,7 +79,10 @@ ul{
   list-style: none;
 }
 
-ul a{
+.inner-footer a{
+  text-decoration: 3px underline dotted antiquewhite;
+}
+.inner-footer ul a{
   color: #262626c9;
   font-weight: bold;
 
