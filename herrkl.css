@@ -197,7 +197,7 @@ main {
 /*image-buttons*/
 .btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
   border: 2px solid rgba(184, 179, 173, 0.723);
-  background: #582b0caf;
+  background: rgba(128, 128, 128, 0.493);
   text-align: justify;
 
 
