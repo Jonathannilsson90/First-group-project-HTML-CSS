@@ -136,11 +136,6 @@ main {
 }
 
 
-
-
-
-
-
 /*******************************showcase********************/
 
 .showcase{
@@ -149,7 +144,7 @@ main {
   height: 400px;
   font-family:var(--border);
 
-  
+
   background: url('img/showc.jpg')
   no-repeat center center/cover;
   display: flex;
@@ -177,7 +172,7 @@ main {
 /***********************image grid************************/
 
 .img-grid{
-  border: 10px double rgba(184, 179, 173, 0.723);
+  border: 10px double  #582b0caf;
   margin: 150px;
   padding: 50px auto;
   background: whitesmoke;
@@ -188,47 +183,52 @@ main {
 
 .bild-1, .bild-2, .bild-3, .bild-4, .bild-5, .bild-6 {
   border: 4px double #f8f9f9;
-  margin: 5px;
+  margin: 25px;
   background:rgba(184, 179, 173, 0.385);
-
 }
 
 /*images*/
 .kl1, .kl2, .kl3, .kl3, .kl4, .kl5, .kl6{ 
-  max-width: 250px;
+  max-width: 280px;
+  cursor: pointer;
 }
 
 
 /*image-buttons*/
 .btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
   border: 2px solid rgba(184, 179, 173, 0.723);
-  background: #26262699;
+  background: #582b0caf;
   text-align: justify;
+
+
   display: flex;
   flex-direction: row;
-  
 }
 
  .btn-1 , .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
   color: whitesmoke;
-  text-decoration: none;
+  text-decoration:underline;
   width: 100%;
   height: 23%;
   
-  
 }
+
 i.fa-solid{
   float: right;
-  margin: 20px;
+  margin: 30px;
 }
+
 i.fa-sharp{
-  color: rgb(174, 144, 54);
+  color: rgb(210, 175, 69);
+  margin-right: 50px;
 }
 
  h6{
   color: rgba(255, 255, 255, 0.61);
   font-size: small;
  }
+
+
 
   /**************************FOOTER***********************/
 
@@ -264,10 +264,19 @@ i.fa-sharp{
 ul{
   list-style: none;
 }
+.inner-footer ul a{
+  color: #262626c9;
+  font-weight: bold;
+  
+}
 .fa-brands{
   color: antiquewhite;
 }
 
+.copy{
+  color: antiquewhite;
+  font-style: oblique;
+}
 
 /****************media queries ipad****************************/
 @media screen and (max-width:960px) {
