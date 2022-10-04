@@ -1,5 +1,6 @@
 body {
-  background-color: white;
+  background: linear-gradient(lightgrey, rgba(120, 79, 38, 0.521));
+ 
 }
 
 
@@ -22,7 +23,7 @@ footer {
   box-sizing: border-box;
 }
 
-
+/******************header******************/
 header {
   background-color: var(--background-color);
 }
@@ -140,17 +141,21 @@ main {
 
 
 
-                         /*showcase*/
+/*******************************showcase********************/
 
 .showcase{
   margin: 15px;
   width: 100%;
   height: 400px;
+  font-family:var(--border);
+
+  
   background: url('img/showc.jpg')
   no-repeat center center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: double whitesmoke;
 }
 
 
@@ -169,31 +174,66 @@ main {
   font-size: 15px;
 }
 
-/*image grid*/
+/***********************image grid************************/
 
 .img-grid{
-  border: 5px solid rgb(189, 137, 91) ;
+  border: 10px double rgba(184, 179, 173, 0.723);
   margin: 150px;
+  padding: 50px auto;
+  background: whitesmoke;
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
 
-.kl1, .kl2, .kl3, .kl3, .kl4, .kl5, .kl6{
+.bild-1, .bild-2, .bild-3, .bild-4, .bild-5, .bild-6 {
+  border: 4px double #f8f9f9;
+  margin: 5px;
+  background:rgba(184, 179, 173, 0.385);
+
+}
+
+/*images*/
+.kl1, .kl2, .kl3, .kl3, .kl4, .kl5, .kl6{ 
   max-width: 250px;
 }
 
 
+/*image-buttons*/
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
+  border: 2px solid rgba(184, 179, 173, 0.723);
+  background: #26262699;
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+  
+}
 
+ .btn-1 , .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
+  color: whitesmoke;
+  text-decoration: none;
+  width: 100%;
+  height: 23%;
+  
+  
+}
+i.fa-solid{
+  float: right;
+  margin: 20px;
+}
+i.fa-sharp{
+  color: rgb(174, 144, 54);
+}
 
+ h6{
+  color: rgba(255, 255, 255, 0.61);
+  font-size: small;
+ }
 
+  /**************************FOOTER***********************/
 
-
-
-                               /*******FOOTER******/
-
-a {
-  text-decoration: 3px underline dotted antiquewhite;
+.footer a  {
+  text-decoration: 3px dotted underline antiquewhite;
   color: #262626;
 }
 
@@ -226,4 +266,96 @@ ul{
 }
 .fa-brands{
   color: antiquewhite;
+}
+
+
+/****************media queries ipad****************************/
+@media screen and (max-width:960px) {
+  .icon-wrapper .fa-2x  {
+    font-size: 1em;
+   
+  }
+
+  #search-bar{
+    width: 450px;
+    
+  }
+  
+    
+  
+  .showcase{
+    margin: 60px;
+    width: 90%;
+    height: 400px;
+  }
+
+  .img-grid { 
+    grid-template-columns: repeat(2, 2fr);
+    width: 90%;
+    margin: 60px;
+  }
+  .inner-footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+
+
+
+
+
+
+/***********Media Querries Mobil*****************/
+@media screen and (max-width:768px) {
+  header{
+    margin: 0px;
+    width: 150%;
+    height: 220px;
+  }
+  body{
+    background: linear-gradient( rgb(82, 36, 20), antiquewhite);
+  }
+
+  .icon-text {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+ .main-nav ul{
+  margin:0px ;
+  padding: 0px;
+  flex-flow:column;
+ }
+ .main-nav ul li a {
+  font-size: 15px;
+  padding: 0 44px;
+  border: 2px solid;
+  border-style: groove;
+ }
+
+.main-nav ul li a:hover {
+  background-color: lightgrey;
+}
+
+  .img-grid{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+  }
+  .bild-1, .bild-2, .bild-3, .bild-4, .bild-5, .bild-6{
+    margin: 45px;
+    padding: 5px;
+  }
+  
+  .showcase{
+    margin: 2px;
+  }
+ 
+  
+  .inner-footer{
+    margin: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    
+   
+  }
 }
