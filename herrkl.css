@@ -189,31 +189,48 @@ main {
   background:rgba(184, 179, 173, 0.385);
 
 }
-.kl1, .kl2, .kl3, .kl3, .kl4, .kl5, .kl6{
+
+/*images*/
+.kl1, .kl2, .kl3, .kl3, .kl4, .kl5, .kl6{ 
   max-width: 250px;
 }
 
+
+/*image-buttons*/
 .btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
   border: 2px solid rgba(184, 179, 173, 0.723);
-  background: rgba(184, 179, 173, 0.723);
+  background: #26262699;
   text-align: justify;
-  display: block;
-  width: 20%;
-  height: 13%;
+  display: flex;
+  flex-direction: row;
+  
 }
 
  .btn-1 , .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
   color: whitesmoke;
   text-decoration: none;
+  width: 100%;
+  height: 23%;
+  
+  
+}
+i.fa-solid{
+  float: right;
+  margin: 20px;
+}
+i.fa-sharp{
+  color: rgb(174, 144, 54);
 }
 
-
-
+ h6{
+  color: rgba(255, 255, 255, 0.61);
+  font-size: small;
+ }
 
   /**************************FOOTER***********************/
 
 .footer a  {
-  text-decoration: underline;
+  text-decoration: 3px dotted underline antiquewhite;
   color: #262626;
 }
 
@@ -246,4 +263,35 @@ ul{
 }
 .fa-brands{
   color: antiquewhite;
+}
+
+
+/****************media queries ipad****************************/
+@media screen and (max-width:960px) {
+  .icon-wrapper .fa-2x  {
+    font-size: 1em;
+   
+  }
+
+  #search-bar{
+    width: 450px;
+    
+  }
+  
+    
+  
+  .showcase{
+    margin: 60px;
+    width: 90%;
+    height: 400px;
+  }
+
+  .img-grid { 
+    grid-template-columns: repeat(2, 2fr);
+    width: 90%;
+    margin: 60px;
+  }
+  .inner-footer {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
