@@ -147,6 +147,9 @@ main {
   margin: 15px;
   width: 100%;
   height: 400px;
+  font-family:var(--border);
+
+  
   background: url('img/showc.jpg')
   no-repeat center center/cover;
   display: flex;
@@ -176,7 +179,7 @@ main {
 .img-grid{
   border: 10px double rgba(184, 179, 173, 0.723);
   margin: 150px;
-  padding: 50px;
+  padding: 50px auto;
   background: whitesmoke;
 
   display: grid;
@@ -293,5 +296,66 @@ ul{
   }
   .inner-footer {
     grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+
+
+
+
+
+
+
+/***********Media Querries Mobil*****************/
+@media screen and (max-width:768px) {
+  header{
+    margin: 0px;
+    width: 150%;
+    height: 220px;
+  }
+  body{
+    background: linear-gradient( rgb(82, 36, 20), antiquewhite);
+  }
+
+  .icon-text {
+    font-size: 15px;
+    padding: 15px;
+  }
+
+ .main-nav ul{
+  margin:0px ;
+  padding: 0px;
+  flex-flow:column;
+ }
+ .main-nav ul li a {
+  font-size: 15px;
+  padding: 0 44px;
+  border: 2px solid;
+  border-style: groove;
+ }
+
+.main-nav ul li a:hover {
+  background-color: lightgrey;
+}
+
+  .img-grid{
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0px;
+  }
+  .bild-1, .bild-2, .bild-3, .bild-4, .bild-5, .bild-6{
+    margin: 45px;
+    padding: 5px;
+  }
+  
+  .showcase{
+    margin: 2px;
+  }
+ 
+  
+  .inner-footer{
+    margin: 0px;
+    grid-template-columns: repeat(1, 1fr);
+    
+   
   }
 }
