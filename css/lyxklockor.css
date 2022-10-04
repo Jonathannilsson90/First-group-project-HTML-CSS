@@ -156,20 +156,24 @@ body{
         transform: scale(1.1);
     }
     /******FOLLOW US HERE*****/
+    
     .follow-us{
-      display: flex;
+      display: grid;
       width: 100%;
-      height: 150px;
+      height: 200px;
       background-color: antiquewhite;
+      
     }
 
     .follow-section{
-      width: 100%;
-    }
-    .icon-container{
-      text-align: center;
+      display: flex;
+      place-content: center;
+      padding: 10px;
+      margin: 10px;
 
     }
+      
+
   
   /*******FOOTER******/
   
