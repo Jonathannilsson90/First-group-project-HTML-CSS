@@ -15,7 +15,7 @@ body {
   
   /*******MAIN******/
   :root{
-    --background-color: rgb(88, 9, 9);
+    --background-color-a-tag: rgb(88, 9, 9);
     --grid-fonts: Arial, Helvetica, sans-serif;
     --a-text-color: white;
     --font-size-text: 25px;
@@ -36,7 +36,7 @@ body {
 }
 
 .wall-photos a {
-  background-color: var(--background-color);
+  background-color: var(--background-color-a-tag);
   color: var(--a-text-color);
   font-size: var(--font-size-a-tag);
   font-weight: var(--font-styling);
