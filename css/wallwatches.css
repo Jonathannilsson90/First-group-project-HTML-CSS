@@ -14,7 +14,16 @@ body {
   
   
   /*******MAIN******/
-  
+  :root{
+    --background-color: rgb(88, 9, 9);
+    --grid-fonts: Arial, Helvetica, sans-serif;
+    --a-text-color: white;
+    --font-size-text: 25px;
+    --font-size-a-tag: large;
+    --font-styling: bold;
+  }
+
+
   main {
     min-height: 500px;
   }
@@ -27,15 +36,15 @@ body {
 }
 
 .wall-photos a {
-  background-color: rgb(88, 9, 9);
-  color: white;
-  font-size: large;
-  font-weight: bold;
+  background-color: var(--background-color);
+  color: var(--a-text-color);
+  font-size: var(--font-size-a-tag);
+  font-weight: var(--font-styling);
 }
 
 .wall-photos [class*=text] {
-  font-size: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-size: var(--font-size-text);
+  font-family: var(--grid-fonts);
 }
   
   /*******FOOTER******/
