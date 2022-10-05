@@ -101,8 +101,8 @@ padding-right: 10px;
 }
 
 .nav-wrapper {
-  grid-row: 2/3;
-  grid-column: 1/4;
+  grid-row: 3/3;
+  grid-column: 1/6;
 }
 
 .main-nav ul {
@@ -173,11 +173,43 @@ main {
   background-color: lightgray;
 }
 
+/*line*/
+.line{
+  background: #8d734f;
+  width: 100%;
+  position: static;
+  height: 50px;
+  padding: 5px;
+  color: whitesmoke;
+
+  text-align: center;
+  text-shadow: #d2bda1;
+  font-size: x-large;
+  font-style: italic;
+  font-family: system-ui;
+  font-weight: 200;
+  letter-spacing: 20px;
+}
+
+/*category search bar*/
+.cat-bar{
+  display: inline;
+  float: right;
+  margin-right: 120px;
+  margin-top: 50px;
+  
+  font-size: x-large;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
 /***********************image grid************************/
 
 .img-grid{
   border: 10px double #582b0caf;
-  margin: 150px;
+  margin: 110px;
   padding: 50px auto;
   background:whitesmoke;
 
@@ -203,7 +235,7 @@ main {
 /*image-buttons*/
 .btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
   border: 2px double rgba(184, 179, 173, 0.723);
-  background: rgba(10, 10, 10, 0.749);
+  background: #8d734f;
   text-align: justify;
   border-radius: 5px;
   position: relative;
@@ -354,7 +386,7 @@ ul{
     height: 220px;
   }
   body{
-    background: linear-gradient( rgb(82, 36, 20), antiquewhite);
+    background: linear-gradient( rgba(100, 65, 53, 0.396), antiquewhite);
   }
 
   .icon-text {
@@ -391,6 +423,10 @@ ul{
     margin: 2px;
   }
  
+  .line{
+    height: 60%;
+    margin-top: 15px;
+  }
   
   .inner-footer{
     margin: 0px;
