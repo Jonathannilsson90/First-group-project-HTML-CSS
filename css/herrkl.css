@@ -145,7 +145,7 @@ main {
   font-family:var(--border);
 
 
-  background: url('/img/showc.jpg')
+  background: url('/img/mens-watches/showc.jpg')
   no-repeat center center/cover;
   display: flex;
   flex-direction: column;
@@ -176,8 +176,8 @@ main {
 /***********************image grid************************/
 
 .img-grid{
-  border: 10px double  #582b0caf;
-  margin: 120px;
+  border: 10px double #582b0caf;
+  margin: 150px;
   padding: 50px auto;
   background:whitesmoke;
 
@@ -203,7 +203,7 @@ main {
 /*image-buttons*/
 .btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6{
   border: 2px double rgba(184, 179, 173, 0.723);
-  background: rgba(97, 63, 19, 0.493);
+  background: rgba(10, 10, 10, 0.749);
   text-align: justify;
   border-radius: 5px;
   position: relative;
@@ -253,6 +253,18 @@ i.fa-sharp{
 }
 i.fa-sharp:hover{
   color: lightgoldenrodyellow;
+}
+
+/*JS button*/
+#up{
+  position:static;
+  color: antiquewhite;
+  background-color: rgba(146, 111, 80, 0.723);
+  border: 2px solid whitesmoke;
+  font-size: medium;
+  font-family:sans-serif;
+  margin: 50px;
+  cursor:pointer;
 }
 
 
