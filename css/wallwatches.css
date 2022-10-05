@@ -16,7 +16,7 @@ body {
   /*******MAIN******/
   :root{
     --background-color-a-tag: rgb(88, 9, 9);
-    --grid-fonts: Arial, Helvetica, sans-serif;
+    --my-fonts: Arial, Helvetica, sans-serif;
     --a-text-color: white;
     --font-size-text: 25px;
     --font-size-a-tag: large;
@@ -28,6 +28,40 @@ body {
     min-height: 500px;
   }
 
+.box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.box-text {
+  grid-area: 1/3;
+  justify-self: start;
+  font-family: var(--my-fonts);
+  
+}
+
+#yes-box {
+  grid-area: 2/2;
+  justify-self: end;
+  
+}
+
+#yes-label {
+  grid-area: 2/3;
+  font-family: var(--my-fonts);
+}
+
+.filtering-bar {
+  width: 140px;
+}
+
+.submit-button {
+  grid-area: 3/1;
+  width: 60px;
+}
+
+  
 .wall-photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -40,16 +74,17 @@ body {
   color: var(--a-text-color);
   font-size: var(--font-size-a-tag);
   font-weight: var(--font-styling);
+  align-self: flex-end;
 }
 
-.wall-photos [class*=text] {
+.wall-photos [class*=price] {
   font-size: var(--font-size-text);
   font-family: var(--grid-fonts);
 }
   
   /*******FOOTER******/
   
-  a{
+  .footer a{
     text-decoration: 3px underline dotted antiquewhite;
     color: #262626;
   }
