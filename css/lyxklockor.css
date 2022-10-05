@@ -130,7 +130,7 @@ body{
       min-height:300px;
       min-width: none;
       display: grid;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(4,1fr);
       align-items: center;
       /*border: 2px solid #d2bda1;*/
   }
@@ -158,21 +158,28 @@ body{
     /******FOLLOW US HERE*****/
     
     .follow-us{
-      display: grid;
+      display: flex;
       width: 100%;
-      height: 200px;
+      height: 80px;
       background-color: antiquewhite;
+      place-content: center;
+
       
     }
-
+    
     .follow-section{
       display: flex;
-      place-content: center;
-      padding: 10px;
-      margin: 10px;
-
+      justify-content: space-around;
+      width: 300px;
+      align-items: center;
+      justify-content: space-evenly;
+  
     }
-      
+    .follow-section .icon{
+      display: flex;
+      height: 30px;
+      justify-content: flex-end;
+    }
 
   
   /*******FOOTER******/
@@ -212,3 +219,34 @@ body{
   .fa-brands{
     color: antiquewhite;
   }
+
+  @media  screen and (max-width: 1200px){
+    section{
+      grid-template-columns: repeat(4,1fr);
+    }	
+  }
+  
+  
+  @media  screen and (max-width: 960px){
+    [class*="box"]{
+      border: 1px solid #d2bda1;
+    }
+    section{
+      grid-template-columns: repeat(2,1fr);
+    }
+  }
+  
+  
+  
+  @media  screen and (max-width: 750px){
+    
+    section{
+      grid-template-columns: repeat(1,1fr);
+
+  
+  }
+}
+  
+  
+    
+  
