@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css>
-    <link rel="stylesheet" href="herrkl.css">
+    <link rel="stylesheet" href="css/herrkl.css">
     <title>Men's watches</title>
 </head>
 <body>   
@@ -36,16 +36,18 @@
             <nav class="main-nav">
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="#">Mens</a></li>
-                    <li><a href="#">Womens</a></li>
-                    <li><a href="#">Luxury</a></li>
-                    <li><a href="#">Sport</a></li>
+                    <li><a href="herrkl.html">Mens</a></li>
+                    <li><a href="womens.html">Womens</a></li>
+                    <li><a href="wallwatches.html">Wall Watches</a></li>
+                    <li><a href="lyxklockor.html">Luxury</a></li>
+                    <li><a href="sport-watches.html">Sport</a></li>
                 </ul>
             </nav>
         </div>
     </div>
 </header>
 </div>
+   
 
  <!--ShOWCASE-->
  <section class="showcase">
@@ -56,58 +58,71 @@
     </a>
  </section>
 
+ <!--line-->
+   <div class="line">MIDO COLLECTION</div>
+
+
+   <!--category search-->
+   <div class="cat-bar">
+    <form>
+      <input type="text" placeholder="Sort By Most Viewed">
+      <button type="submit">Sort</button>
+    </form>
+    </div>
+   
+
      <!--main content, images & icons-->
 <div class="img-grid">
 
-    <section class="bild-1">
-      <img src="img/pic1.png" alt="kl1" class="kl1">
+    <button class="bild-1">
+      <img src="img/mens-watches/pic1.png" alt="kl1" class="kl1">
       <a href="#" class="btn-1"> <h6>Explore now</h6>
       <i class="fa-sharp fa-solid fa-cart-plus"></i> 
       <i class="fa-solid fa-heart-circle-plus"></i> </a> 
-    </section> 
+    </button> 
 
-    <section class="bild-2">
-      <img src="img/pic2.png" alt="kl2" class="kl2">
+    <button class="bild-2">
+      <img src="img/mens-watches/pic2.png" alt="kl2" class="kl2">
       <a href="#" class="btn-2"> <h6>Explore now</h6>
       <i class="fa-sharp fa-solid fa-cart-plus"></i>
       <i class="fa-solid fa-heart-circle-plus"></i> </a>
-    </section>
+    </button>
 
-    <section class="bild-3">
-      <img src="img/pic3.png" alt="kl3" class="kl3">
+    <button class="bild-3">
+      <img src="img/mens-watches/pic3.png" alt="kl3" class="kl3">
        <a href="#" class="btn-3"> <h6>Explore now</h6>
       <i class="fa-sharp fa-solid fa-cart-plus"></i>
       <i class="fa-solid fa-heart-circle-plus"></i> </a>
-    </section>
+    </button>
 
-    <section class="bild-4">
-      <img src="img/pic4.png" alt="kl4" class="kl4">
+    <button class="bild-4">
+      <img src="img/mens-watches/pic4.png" alt="kl4" class="kl4">
        <a href="#" class="btn-4"> <h6>Explore now</h6>
        <i class="fa-sharp fa-solid fa-cart-plus"></i>
        <i class="fa-solid fa-heart-circle-plus"></i></a>
-    </section>
+    </button>
 
-    <section class="bild-5">
-      <img src="img/pic5.png" alt="kl5" class="kl5">
+    <button class="bild-5">
+      <img src="img/mens-watches/pic5.png" alt="kl5" class="kl5">
       <a href="#" class="btn-5"> <h6>Explore now</h6>
       <i class="fa-sharp fa-solid fa-cart-plus"></i>
       <i class="fa-solid fa-heart-circle-plus"></i></a>
-    </section>
+    </button>
 
-    <section class="bild-6">
-      <img src="img/pic6.png" alt="kl6" class="kl6"> 
+    <button class="bild-6">
+      <img src="img/mens-watches/pic6.png" alt="kl6" class="kl6"> 
       <a href="#" class="btn-6"> <h6>Explore now</h6>
       <i class="fa-sharp fa-solid fa-cart-plus"></i>
       <i class="fa-solid fa-heart-circle-plus"></i></a>
-    </section>
+    </button>
 </div>
 
-
-
-
-
-
-
+<!--JS button-->
+   <button id="up"> Scroll Up</button>
+     <script>
+    document.getElementById("up").addEventListener('click', function(){window.scrollTo(0,0)});
+     </script>
+     
 
 
           <!--Footer-->

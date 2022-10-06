@@ -43,19 +43,22 @@ body {
 #brand-choice ul {
     padding: 0;
     margin: 0;
+    width: 50%;
     
 }
 
 #brand-choice li {
-    display: inline;
+    display: inline-block;
+    width: 68px;
    
 }
 
-#brand-choice a {
-    display: inline;
+#brand-choice li a {
+    padding-right: 0 40px;
+
     font-size: 20px;
     text-decoration: none;
-    padding-right: 30px;
+   
 }
 
 #brand-choice a:hover {
@@ -71,12 +74,11 @@ body {
 }
 .card {
     width: 20%;
-    flex:  1 1 280px;
+    flex:  0 1 280px;
     border: var(--border);
     border-radius: 5px;
     box-shadow: 5px 10px #d2bda1;
     text-align: center;
-    flex-grow: 1;
     
 }
 
